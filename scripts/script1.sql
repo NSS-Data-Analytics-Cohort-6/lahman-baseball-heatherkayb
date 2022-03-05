@@ -45,7 +45,7 @@ WHERE yearid = 2016
 GROUP BY position
 ORDER BY SUM(po) DESC;*/ 
 
-/*5. Find the average number of strikeouts per game by decade since 1920. Round the numbers you report to 2 decimal places. Do the same for home runs per game. Do you see any trends?*/
+/*5. NEED TO USE TEAMS TABLE - REVISE THIS. Find the average number of strikeouts per game by decade since 1920. Round the numbers you report to 2 decimal places. Do the same for home runs per game. Do you see any trends?*/
 /*
 SELECT ROUND(AVG(so), 2),
 		ROUND(AVG(hr), 2),
